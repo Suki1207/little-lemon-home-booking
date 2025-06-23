@@ -6,6 +6,10 @@ header {
   padding: 15px 64px;
 }
 
+nav > a:hover {
+  cursor: pointer;
+}
+
 nav ul {
   display: flex;
   gap: 80px;

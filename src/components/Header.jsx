@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <img src={Logo} alt="Little Lemon logo" />
+        <Link to="/home">
+          <img src={Logo} alt="Little Lemon logo" />
+        </Link>
         <ul>
           <li>
             <Link to="/home">Home</Link>
