@@ -3,10 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
-}
-
-nav img {
+  padding: 15px 64px;
 }
 
 nav ul {
@@ -14,6 +11,7 @@ nav ul {
   gap: 80px;
   list-style: none;
   padding: 15px 0;
+  font-weight: 600;
 }
 
 nav li {

@@ -1,12 +1,14 @@
 import React from "react";
 
+import Logo from "../assets/Logo.svg";
+
 import "./Header.css";
 
 const Header = () => {
   return (
     <header>
       <nav>
-        <img src="/logo.png" alt="Little Lemon logo" />
+        <img src={Logo} alt="Little Lemon logo" />
         <ul>
           <li>
             <a href="/">Home</a>
