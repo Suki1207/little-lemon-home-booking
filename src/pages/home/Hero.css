@@ -1,0 +1,17 @@
+.hero {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  background-color: #eee;
+  padding: 64px 0;
+}
+
+.hero-content {
+  grid-column: 2 / 6;
+}
+
+.hero-image {
+  grid-column: 7 / 12;
+  text-align: right;
+}

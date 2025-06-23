@@ -1,0 +1,26 @@
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+nav img {
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  padding: 15px 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
