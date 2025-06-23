@@ -3,9 +3,6 @@ import React from "react";
 import Header from "../../components/Header";
 import Hero from "./Hero";
 import Highlights from "./Highlights";
-import Testimonials from "./Testimonials";
-import About from "./About";
-import Footer from "../../components/Footer";
 
 import GreekSalad from "../../assets/greek salad.jpg";
 import Bruchetta from "../../assets/bruchetta.svg";
@@ -44,9 +41,6 @@ const Home = () => {
       <Header />
       <Hero />
       <Highlights specials={specials} />
-      <Testimonials />
-      <About />
-      <Footer />
     </>
   );
 };

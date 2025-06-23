@@ -12,19 +12,21 @@ const Header = () => {
         <img src={Logo} alt="Little Lemon logo" />
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <a href="#specials">Specials</a>
           </li>
           <li>
-            <Link to="/booking">Order Online</Link>
+            <Link to="/booking" target="_blank" rel="noopener noreferrer">
+              Order Online
+            </Link>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <Link to="/home">Testimonials</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/home">About</Link>
           </li>
 
           <li>
