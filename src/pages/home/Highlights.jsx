@@ -4,7 +4,7 @@ import "./Highlights.css";
 
 const Highlights = () => {
   return (
-    <section className="highlights">
+    <section className="highlights" id="specials">
       <div className="section-header">
         <h2>Specials</h2>
         <button>Online Menu</button>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Logo from "../assets/Logo.svg";
 
@@ -11,22 +12,23 @@ const Header = () => {
         <img src={Logo} alt="Little Lemon logo" />
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="#specials">Specials</a>
           </li>
           <li>
-            <a href="/menu">Menu</a>
+            <Link to="/booking">Order Online</Link>
           </li>
           <li>
-            <a href="/booking">Reservations</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="/order">Order Online</a>
+            <a href="#about">About</a>
           </li>
+
           <li>
-            <a href="/login">Login</a>
+            <a href="#">Login</a>
           </li>
         </ul>
       </nav>
