@@ -58,9 +58,17 @@ const Booking = () => {
               id="res-date"
               value={date}
               onChange={handleChange}
+              aria-required="true"
+              aria-label="Choose reservation date"
             />
             <label htmlFor="res-time">Choose time</label>
-            <select id="res-time" value={time} onChange={handleChange}>
+            <select
+              id="res-time"
+              value={time}
+              onChange={handleChange}
+              aria-required="true"
+              aria-label="Choose reservation time"
+            >
               <option value="" disabled>
                 Select time
               </option>
@@ -79,9 +87,17 @@ const Booking = () => {
               id="guests"
               value={guests}
               onChange={handleChange}
+              aria-required="true"
+              aria-label="Number of guests"
+              aria-describedby="guests-help"
             />
             <label htmlFor="occasion">Occasion</label>
-            <select id="occasion" value={occasion} onChange={handleChange}>
+            <select
+              id="occasion"
+              value={occasion}
+              onChange={handleChange}
+              aria-label="Select occasion"
+            >
               <option>Birthday</option>
               <option>Anniversary</option>
             </select>
