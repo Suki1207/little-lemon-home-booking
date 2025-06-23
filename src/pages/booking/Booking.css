@@ -73,3 +73,17 @@
 .booking-container input[type="submit"]:hover {
   opacity: 0.8;
 }
+
+.back-home-btn {
+  color: #f4ce14;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.back-home-btn:hover {
+  opacity: 0.8;
+}

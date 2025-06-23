@@ -1,5 +1,8 @@
 import React, { useReducer, useState } from "react";
+import { Link } from "react-router-dom";
+
 import Header from "../../components/Header";
+
 import "./Booking.css";
 
 const initialTimes = ["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
@@ -84,6 +87,9 @@ const Booking = () => {
             </select>
             <input type="submit" value="Make Your reservation" />
           </form>
+          <Link to="/home" className="back-home-btn">
+            Back to Home
+          </Link>
         </div>
       </section>
     </>

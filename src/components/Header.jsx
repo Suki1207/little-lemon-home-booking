@@ -17,7 +17,7 @@ const Header = () => {
             <Link to="/home">Home</Link>
           </li>
           <li>
-            <a href="#specials">Specials</a>
+            <Link to="/home">Specials</Link>
           </li>
           <li>
             <Link to="/booking" target="_blank" rel="noopener noreferrer">
