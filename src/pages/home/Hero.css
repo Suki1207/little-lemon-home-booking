@@ -5,13 +5,44 @@
   align-items: center;
   background-color: #eee;
   padding: 64px 0;
+  background-color: #495e57;
 }
 
 .hero-content {
   grid-column: 2 / 6;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #f4ce14;
 }
 
 .hero-image {
   grid-column: 7 / 12;
   text-align: right;
+  width: 250px;
+  height: 250px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.hero-content button {
+  border-radius: 16px;
+  font-weight: 700;
+  background-color: #f4ce14;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #f4ce14;
+}
+
+.hero-content button:hover {
+  opacity: 0.8;
 }

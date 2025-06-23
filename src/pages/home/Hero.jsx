@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import RestaurantFood from "../../assets/restauranfood.jpg";
 
 import "./Hero.css";
 
@@ -8,11 +11,16 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        <button>Reserve a Table</button>
+        <p>
+          We are a family owned Mediterranean restaurant, focused on traditional
+          recipes served with a modern twist.
+        </p>
+        <Link to="/booking">
+          <button>Reserve a Table</button>
+        </Link>
       </div>
       <div className="hero-image">
-        <img src="/hero.jpg" alt="Restaurant ambiance" />
+        <img src={RestaurantFood} alt="Restaurant food" />
       </div>
     </section>
   );
