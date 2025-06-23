@@ -1,0 +1,75 @@
+.booking-section {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: #f6f6f6;
+  padding: 64px 0;
+  min-height: 80vh;
+}
+
+.booking-container {
+  grid-column: 4 / 10;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-container h2 {
+  font-size: 2rem;
+  color: #495e57;
+  margin-bottom: 8px;
+}
+
+.booking-container p {
+  color: #666;
+  margin-bottom: 32px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.booking-container form {
+  width: 100%;
+}
+
+.booking-container label {
+  font-weight: 600;
+  color: #495e57;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.booking-container input,
+.booking-container select {
+  border-radius: 12px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.booking-container select,
+.booking-container option {
+  color: #495e57;
+}
+
+.booking-container input[type="submit"] {
+  border-radius: 16px;
+  font-weight: 700;
+  background-color: #f4ce14;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.booking-container input[type="submit"]:hover {
+  opacity: 0.8;
+}
