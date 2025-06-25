@@ -20,9 +20,7 @@ const Header = () => {
             <Link to="/home">Specials</Link>
           </li>
           <li>
-            <Link to="/booking" target="_blank" rel="noopener noreferrer">
-              Order Online
-            </Link>
+            <Link to="/booking">Order Online</Link>
           </li>
           <li>
             <Link to="/home">Testimonials</Link>
