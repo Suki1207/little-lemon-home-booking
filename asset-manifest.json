@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Suki1207/little-lemon-home-booking/static/css/main.875dcbd9.css",
-    "main.js": "/Suki1207/little-lemon-home-booking/static/js/main.caf9cb58.js",
-    "static/js/453.4e526771.chunk.js": "/Suki1207/little-lemon-home-booking/static/js/453.4e526771.chunk.js",
-    "static/media/bruchetta.svg": "/Suki1207/little-lemon-home-booking/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
-    "static/media/greek salad.jpg": "/Suki1207/little-lemon-home-booking/static/media/greek salad.bed423a1fab5b210e347.jpg",
-    "static/media/restauranfood.jpg": "/Suki1207/little-lemon-home-booking/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
-    "static/media/Logo.svg": "/Suki1207/little-lemon-home-booking/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
-    "index.html": "/Suki1207/little-lemon-home-booking/index.html",
-    "main.875dcbd9.css.map": "/Suki1207/little-lemon-home-booking/static/css/main.875dcbd9.css.map",
-    "main.caf9cb58.js.map": "/Suki1207/little-lemon-home-booking/static/js/main.caf9cb58.js.map",
-    "453.4e526771.chunk.js.map": "/Suki1207/little-lemon-home-booking/static/js/453.4e526771.chunk.js.map"
+    "main.css": "/little-lemon-home-booking/static/css/main.875dcbd9.css",
+    "main.js": "/little-lemon-home-booking/static/js/main.de5bf31d.js",
+    "static/js/453.4e526771.chunk.js": "/little-lemon-home-booking/static/js/453.4e526771.chunk.js",
+    "static/media/bruchetta.svg": "/little-lemon-home-booking/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/little-lemon-home-booking/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/little-lemon-home-booking/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/Logo.svg": "/little-lemon-home-booking/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "index.html": "/little-lemon-home-booking/index.html",
+    "main.875dcbd9.css.map": "/little-lemon-home-booking/static/css/main.875dcbd9.css.map",
+    "main.de5bf31d.js.map": "/little-lemon-home-booking/static/js/main.de5bf31d.js.map",
+    "453.4e526771.chunk.js.map": "/little-lemon-home-booking/static/js/453.4e526771.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.875dcbd9.css",
-    "static/js/main.caf9cb58.js"
+    "static/js/main.de5bf31d.js"
   ]
 }
