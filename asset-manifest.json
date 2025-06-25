@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/little-lemon-home-booking/static/css/main.875dcbd9.css",
-    "main.js": "/little-lemon-home-booking/static/js/main.e400a725.js",
+    "main.js": "/little-lemon-home-booking/static/js/main.2032b6f1.js",
     "static/js/453.4e526771.chunk.js": "/little-lemon-home-booking/static/js/453.4e526771.chunk.js",
     "static/media/greek salad.webp": "/little-lemon-home-booking/static/media/greek salad.742ddc86763c1fcc0eed.webp",
     "static/media/restauranfood.webp": "/little-lemon-home-booking/static/media/restauranfood.2cad50ddae71add8e672.webp",
@@ -10,11 +10,11 @@
     "static/media/lemon dessert.webp": "/little-lemon-home-booking/static/media/lemon dessert.6b15f708940e766aca50.webp",
     "index.html": "/little-lemon-home-booking/index.html",
     "main.875dcbd9.css.map": "/little-lemon-home-booking/static/css/main.875dcbd9.css.map",
-    "main.e400a725.js.map": "/little-lemon-home-booking/static/js/main.e400a725.js.map",
+    "main.2032b6f1.js.map": "/little-lemon-home-booking/static/js/main.2032b6f1.js.map",
     "453.4e526771.chunk.js.map": "/little-lemon-home-booking/static/js/453.4e526771.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.875dcbd9.css",
-    "static/js/main.e400a725.js"
+    "static/js/main.2032b6f1.js"
   ]
 }
