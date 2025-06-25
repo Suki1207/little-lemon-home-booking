@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import RestaurantFood from "../../assets/restauranfood.jpg";
+import RestaurantFood from "../../assets/restauranfood.webp";
 
 import "./Hero.css";
 

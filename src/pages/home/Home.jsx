@@ -4,9 +4,9 @@ import Header from "../../components/Header";
 import Hero from "./Hero";
 import Highlights from "./Highlights";
 
-import GreekSalad from "../../assets/greek salad.jpg";
-import Bruchetta from "../../assets/bruchetta.svg";
-import LemonDessert from "../../assets/lemon dessert.jpg";
+import GreekSalad from "../../assets/greek salad.webp";
+import Bruchetta from "../../assets/bruchetta.webp";
+import LemonDessert from "../../assets/lemon dessert.webp";
 
 const specials = [
   {
