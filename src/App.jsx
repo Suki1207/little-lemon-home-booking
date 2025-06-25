@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/little-lemon-home-booking">
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/booking" element={<Booking />} />
